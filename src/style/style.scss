@@ -8,9 +8,18 @@ body {
 }
 
 .page_nav ul{
+    text-align: center;
+    justify-content: center;
     display: flex;
     gap: 1rem;
     & li {
         list-style: none;
     }
+}
+
+footer {
+    margin-top: 2rem;
+    background: grey;
+    justify-content: center;
+    display: flex;
 }
